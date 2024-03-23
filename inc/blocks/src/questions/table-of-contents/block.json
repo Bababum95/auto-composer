@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "auto/table-of-contents",
+	"version": "1.0.0",
+	"title": "Table of contents",
+	"category": "theme",
+	"description": "Table of contents for posts with questions",
+	"example": {},
+	"attributes": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "auto",
+	"editorScript": "file:./index.js",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"render": "file:./render.php"
+}

@@ -1,0 +1,7 @@
+{
+    "extends": [ "plugin:@wordpress/eslint-plugin/recommended" ],
+    "plugins": [ "@wordpress" ],
+    "rules": {
+        "eslint-plugin-import/no-unresolved": "off"
+    }
+}

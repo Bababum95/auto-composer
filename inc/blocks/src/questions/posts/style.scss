@@ -1,0 +1,10 @@
+@import '../../../assets/styles/question';
+@import '../../../assets/styles/mixins';
+
+$block-selector: '.wp-block-auto-questions-posts';
+
+#{$block-selector} {
+    @include flex-column;
+    gap: 20px;
+    flex-basis: 900px;
+}

@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "auto/single-question",
+	"version": "1.0.0",
+	"title": "Question single post",
+	"category": "theme",
+	"description": "Question single post contetnt",
+	"example": {},
+	"attributes": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "auto",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}
